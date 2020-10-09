@@ -52,6 +52,7 @@ public class Tarrefas {
         
         double probabilidades[]= j.distributionForInstance(novo);
         
+        System.out.println("");
         System.out.println("Yes:" +probabilidades[1] );
         System.out.println("No:"+probabilidades[0]);
     }
